@@ -1,0 +1,26 @@
+.cal_window_div
+{
+ display: flexbox;
+ width: 400px;
+ height: 500px;
+ border-radius: 50px;
+ background-color: aqua;
+ padding: 20px;
+ flex-direction: column;
+}
+.upper_window
+{    
+    height: 50px;    
+    display: block;
+    background-color: blue;
+}
+.middle_window
+{
+    height: 100px;
+    background-color: aquamarine;
+}
+.lower_window
+{
+    min-height: 280px;
+    background-color: rgb(3, 224, 136);
+}
